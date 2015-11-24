@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    public abstract class Beverage
+    internal class friedonion
     {
-
     }
 }

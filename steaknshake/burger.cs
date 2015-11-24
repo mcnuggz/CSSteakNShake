@@ -8,8 +8,8 @@ namespace steaknshake
 {
     public abstract class Burger
     {
-        public abstract void needsBuns();
-
-        public abstract void needsPatties();
+        List<butteredbuns> buns;
+        List<patty> patties;
+       
     }
 }

@@ -43,6 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bacon.cs" />
+    <Compile Include="burger.cs" />
+    <Compile Include="beverage.cs" />
+    <Compile Include="butteredbuns.cs" />
+    <Compile Include="cheese.cs" />
+    <Compile Include="chef.cs" />
+    <Compile Include="customer.cs" />
+    <Compile Include="ICook.cs" />
+    <Compile Include="lettuce.cs" />
+    <Compile Include="mayonaise.cs" />
+    <Compile Include="onion.cs" />
+    <Compile Include="patty.cs" />
+    <Compile Include="pickles.cs" />
+    <Compile Include="tomato.cs" />
+    <Compile Include="waiter.cs" />
+    <Compile Include="sides.cs" />
+    <Compile Include="course.cs" />
+    <Compile Include="IAssemble.cs" />
     <Compile Include="ingredients.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

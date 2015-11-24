@@ -12,7 +12,7 @@ namespace steaknshake
         {
             Dictionary<int, string> ingredients = new Dictionary<int, string>();
             ingredients.Add(1, "Buttered buns");
-            ingredients.Add(2,"Steak Patty");
+            ingredients.Add(2, "Steak Patty");
             ingredients.Add(3, "Tomato");
             ingredients.Add(4, "Lettuce");
             ingredients.Add(5, "Onion");
@@ -27,6 +27,7 @@ namespace steaknshake
             ingredients.Add(14, "Grilled Egg");
             ingredients.Add(15, "French Fries");
             ingredients.Add(16, "Onion Rings");
+            ingredients.Add(17, "Fried Onions");
 
         }
     }
