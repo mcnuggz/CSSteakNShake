@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    class Program
+    interface ICook
     {
-        static void Main(string[] args)
-        {
-        }
+        public void addHeat();
     }
 }
