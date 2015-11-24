@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    interface ICook
+    interface IMeal
     {
-        void addHeat();
+         void hasDrink();
+         void hasFood();
     }
 }

@@ -56,8 +56,10 @@
     <Compile Include="grilledEgg.cs" />
     <Compile Include="frisco.cs" />
     <Compile Include="guacamole.cs" />
+    <Compile Include="IBeverage.cs" />
     <Compile Include="ICook.cs" />
     <Compile Include="IBurger.cs" />
+    <Compile Include="IMeal.cs" />
     <Compile Include="ketchup.cs" />
     <Compile Include="lettuce.cs" />
     <Compile Include="mayonaise.cs" />

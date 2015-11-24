@@ -8,5 +8,10 @@ namespace steaknshake
 {
     public class Chef : ICook
     {
+        bool cookedMeat;
+        public void addHeat()
+        {
+            cookedMeat = true;
+        }
     }
 }
