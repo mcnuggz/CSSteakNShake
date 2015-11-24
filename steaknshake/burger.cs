@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    public abstract class Burger
+    public abstract class Burger : IBurger
     {
-        List<butteredbuns> buns;
-        List<patty> patties;
        
     }
 }

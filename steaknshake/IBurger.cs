@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    public abstract class Side
+    interface IBurger
     {
-        public abstract void Salad();
-        public abstract void Fries();
-        public abstract void Chili();
     }
 }

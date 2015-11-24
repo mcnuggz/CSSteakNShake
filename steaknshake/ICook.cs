@@ -8,6 +8,6 @@ namespace steaknshake
 {
     interface ICook
     {
-        public void addHeat();
+        
     }
 }

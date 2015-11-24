@@ -6,29 +6,34 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    class Ingredients
+    public class IngredientList
     {
-        static void Main()
+        public static void Main()
         {
-            Dictionary<int, string> ingredients = new Dictionary<int, string>();
-            ingredients.Add(1, "Buttered buns");
-            ingredients.Add(2, "Steak Patty");
-            ingredients.Add(3, "Tomato");
-            ingredients.Add(4, "Lettuce");
-            ingredients.Add(5, "Onion");
-            ingredients.Add(6, "Cheddar Cheese");
-            ingredients.Add(7, "Bacon");
-            ingredients.Add(8, "Pickles");
-            ingredients.Add(9, "Mayonaise");
-            ingredients.Add(10, "Ketchup");
-            ingredients.Add(11, "Mustard");
-            ingredients.Add(12, "Frisco Sauce");
-            ingredients.Add(13, "Guacamole");
-            ingredients.Add(14, "Grilled Egg");
-            ingredients.Add(15, "French Fries");
-            ingredients.Add(16, "Onion Rings");
-            ingredients.Add(17, "Fried Onions");
+            Ingredients ingredient1 = new Ingredients() { Name = "Buttered Bun", Quantity = 1 };
+            Ingredients ingredient2 = new Ingredients() { Name = "Steak Patty", Quantity = 2 };
+            Ingredients ingredient3 = new Ingredients() { Name = "Tomato", Quantity = 2 };
+            Ingredients ingredient4 = new Ingredients() { Name = "Lettuce", Quantity = 2 };
+            Ingredients ingredient5 = new Ingredients() { Name = "Onion", Quantity = 3 };
+            Ingredients ingredient6 = new Ingredients() { Name = "Cheese", Quantity = 1 };
+            Ingredients ingredient7 = new Ingredients() { Name = "Bacon", Quantity = 3 };
+            Ingredients ingredient8 = new Ingredients() { Name = "Pickles", Quantity = 2 };
+            Ingredients ingredient9 = new Ingredients() { Name = "Mayonaise", Quantity = 1 };
+            Ingredients ingredient10 = new Ingredients() { Name = "Ketchup", Quantity = 1 };
+            Ingredients ingredient11 = new Ingredients() { Name = "Mustard", Quantity = 1 };
+            Ingredients ingredient12 = new Ingredients() { Name = "Frisco Sauce", Quantity = 1 };
+            Ingredients ingredient13 = new Ingredients() { Name = "Guacamole", Quantity = 1 };
+            Ingredients ingredient14 = new Ingredients() { Name = "Grilled Egg", Quantity = 1 };
+            Ingredients ingredient15 = new Ingredients() { Name = "Fries", Quantity = 20 };
+            Ingredients ingredient16 = new Ingredients() { Name = "Onion Rings", Quantity = 4 };
+            Ingredients ingredient17 = new Ingredients() { Name = "Fried Onions", Quantity = 20 };
 
+            List<Ingredients> listIngredents = new List<Ingredients> { ingredient1, ingredient2, ingredient3, ingredient4, ingredient5, ingredient6, ingredient7, ingredient8, ingredient9, ingredient10, ingredient11, ingredient12, ingredient13, ingredient14, ingredient15, ingredient16, ingredient17 };
+        }
+        public class Ingredients
+        {
+            public string Name { get; set; }
+            public int Quantity { get; set; }
         }
     }
 }
