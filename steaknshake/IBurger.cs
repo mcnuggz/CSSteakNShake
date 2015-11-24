@@ -8,5 +8,7 @@ namespace steaknshake
 {
     interface IBurger
     {
+        void amtofBuns();
+        void amtofPatties();
     }
 }
