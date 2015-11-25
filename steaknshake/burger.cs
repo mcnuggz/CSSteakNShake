@@ -6,31 +6,32 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    public class burger : ICook
+    public class burger : IngredientList, ICook
     {
-        public bool hasBuns;
-        public int bunAmt;
-        public bool heatApplied;
-        public void haveBuns()
-        {
-            hasBuns = true;
-            bunAmt = 1;
-        }
-        public bool hasPatty;
-        public int pattyAmt;
-        public void havePatties()
-        {
-            hasBuns = true;
-            pattyAmt = 2;
-        }
+        public bool cookedMeat;
+        public string name;
+        public int amtofBuns;
+        public int amtofPatties;
 
         public void addHeat()
         {
-            heatApplied = true;
+            cookedMeat = true;
         }
-    
+        public burger(string burgerName, int bunCount, int pattyCount)
+        {
+            name = burgerName;
+            amtofBuns = bunCount;
+            amtofPatties = pattyCount;
+        }
     public static void Main()
     {
+
+            burger deluxeBurger = new burger("Mondo Burger", 2, 2);
+            Console.WriteLine(deluxeBurger.name + " has " + deluxeBurger.amtofBuns + " buns and " + deluxeBurger.amtofPatties + " patties!");
+            Console.Read();
+
     }
-  }
+
+
+    }
 }
