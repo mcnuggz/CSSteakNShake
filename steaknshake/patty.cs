@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    internal class patty
+    internal class patty : ICook
     {
+        public bool cookedMeat;
+        public void addHeat()
+        {
+            cookedMeat = true;
+        }
     }
 }

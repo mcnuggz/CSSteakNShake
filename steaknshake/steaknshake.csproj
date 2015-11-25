@@ -44,22 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bacon.cs" />
+    <Compile Include="buns.cs" />
     <Compile Include="burger.cs" />
-    <Compile Include="beverage.cs" />
-    <Compile Include="butteredbuns.cs" />
     <Compile Include="cheese.cs" />
     <Compile Include="chef.cs" />
-    <Compile Include="dishes.cs" />
-    <Compile Include="customer.cs" />
     <Compile Include="friedonion.cs" />
-    <Compile Include="fries.cs" />
     <Compile Include="grilledEgg.cs" />
     <Compile Include="frisco.cs" />
     <Compile Include="guacamole.cs" />
-    <Compile Include="IBeverage.cs" />
     <Compile Include="ICook.cs" />
     <Compile Include="IBurger.cs" />
-    <Compile Include="IMeal.cs" />
     <Compile Include="ketchup.cs" />
     <Compile Include="lettuce.cs" />
     <Compile Include="mayonaise.cs" />
@@ -69,9 +63,7 @@
     <Compile Include="patty.cs" />
     <Compile Include="pickles.cs" />
     <Compile Include="tomato.cs" />
-    <Compile Include="waiter.cs" />
     <Compile Include="sides.cs" />
-    <Compile Include="course.cs" />
     <Compile Include="IAssemble.cs" />
     <Compile Include="ingredients.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

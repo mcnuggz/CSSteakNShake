@@ -8,6 +8,7 @@ namespace steaknshake
 {
     public abstract class Side
     {
+        public abstract void onionRings();
         public abstract void Salad();
         public abstract void Fries();
         public abstract void Chili();

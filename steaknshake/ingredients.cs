@@ -24,11 +24,10 @@ namespace steaknshake
             Ingredients ingredient12 = new Ingredients() { Name = "Frisco Sauce"};
             Ingredients ingredient13 = new Ingredients() { Name = "Guacamole"};
             Ingredients ingredient14 = new Ingredients() { Name = "Grilled Egg"};
-            Ingredients ingredient15 = new Ingredients() { Name = "Fries"};
-            Ingredients ingredient16 = new Ingredients() { Name = "Onion Rings"};
-            Ingredients ingredient17 = new Ingredients() { Name = "Fried Onions"};
+            Ingredients ingredient15 = new Ingredients() { Name = "Onion Rings"};
+            Ingredients ingredient16 = new Ingredients() { Name = "Fried Onions"};
 
-            List<Ingredients> listIngredents = new List<Ingredients> { ingredient1, ingredient2, ingredient3, ingredient4, ingredient5, ingredient6, ingredient7, ingredient8, ingredient9, ingredient10, ingredient11, ingredient12, ingredient13, ingredient14, ingredient15, ingredient16, ingredient17 };
+            List<Ingredients> listIngredents = new List<Ingredients> { ingredient1, ingredient2, ingredient3, ingredient4, ingredient5, ingredient6, ingredient7, ingredient8, ingredient9, ingredient10, ingredient11, ingredient12, ingredient13, ingredient14, ingredient15, ingredient16 };
         }
         public class Ingredients
         {

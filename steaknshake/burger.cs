@@ -4,21 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace steaknshake
 {
-    public abstract class Burger : IBurger
+    public class burger : IBurger
     {
-        int bunCount;
-        int pattyCount;
-        public void amtofBuns()
+        public bool hasBuns;
+        public int bunAmt;
+        public void haveBuns()
         {
-            bunCount = 1;
-
+            hasBuns = true;
+            bunAmt = 1;
         }
-        public void amtofPatties()
+        public bool hasPatty;
+        public int pattyAmt;
+        public void havePatties()
         {
-            pattyCount = 2;
+            hasBuns = true;
+            pattyAmt = 2;
         }
     }
 }
