@@ -47,13 +47,11 @@
     <Compile Include="buns.cs" />
     <Compile Include="burger.cs" />
     <Compile Include="cheese.cs" />
-    <Compile Include="chef.cs" />
     <Compile Include="friedonion.cs" />
     <Compile Include="grilledEgg.cs" />
     <Compile Include="frisco.cs" />
     <Compile Include="guacamole.cs" />
     <Compile Include="ICook.cs" />
-    <Compile Include="IBurger.cs" />
     <Compile Include="ketchup.cs" />
     <Compile Include="lettuce.cs" />
     <Compile Include="mayonaise.cs" />

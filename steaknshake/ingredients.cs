@@ -6,32 +6,49 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    public class IngredientList
+   public class IngredientList
     {
-        public static void Main()
+        public static void Toppings()
         {
-            Ingredients ingredient1 = new Ingredients() { Name = "Buttered Bun"};
-            Ingredients ingredient2 = new Ingredients() { Name = "Steak Patty"};
-            Ingredients ingredient3 = new Ingredients() { Name = "Tomato"};
-            Ingredients ingredient4 = new Ingredients() { Name = "Lettuce"};
-            Ingredients ingredient5 = new Ingredients() { Name = "Onion"};
-            Ingredients ingredient6 = new Ingredients() { Name = "Cheese"};
-            Ingredients ingredient7 = new Ingredients() { Name = "Bacon"};
-            Ingredients ingredient8 = new Ingredients() { Name = "Pickles"};
-            Ingredients ingredient9 = new Ingredients() { Name = "Mayonaise"};
-            Ingredients ingredient10 = new Ingredients() { Name = "Ketchup"};
-            Ingredients ingredient11 = new Ingredients() { Name = "Mustard"};
-            Ingredients ingredient12 = new Ingredients() { Name = "Frisco Sauce"};
-            Ingredients ingredient13 = new Ingredients() { Name = "Guacamole"};
-            Ingredients ingredient14 = new Ingredients() { Name = "Grilled Egg"};
-            Ingredients ingredient15 = new Ingredients() { Name = "Onion Rings"};
-            Ingredients ingredient16 = new Ingredients() { Name = "Fried Onions"};
+        Topping topping1 = new Topping() { Name = "Bun" };
+        Topping topping2 = new Topping() { Name = "Patty" };
+        Topping topping3 = new Topping() { Name = "Cheese" };
+        Topping topping4 = new Topping() { Name = "Tomato" };
+        Topping topping5 = new Topping() { Name = "Onion" };
+        Topping topping6 = new Topping() { Name = "Lettuce" };
+        Topping topping7 = new Topping() { Name = "Pickles" };
+        Topping topping8 = new Topping() { Name = "Mayonaise" };
+        Topping topping9 = new Topping() { Name = "Ketchup" };
+        Topping topping10 = new Topping() { Name = "Mustard" };
+        Topping topping11 = new Topping() { Name = "Frisco Sauce" };
+        Topping topping12 = new Topping() { Name = "Bacon" };
+        Topping topping13 = new Topping() { Name = "Guacamole" };
+        Topping topping14 = new Topping() { Name = "Grilled Egg" };
+        Topping topping15 = new Topping() { Name = "Onion Rings" };
+        Topping topping16 = new Topping() { Name = "Fried Onion" };
 
-            List<Ingredients> listIngredents = new List<Ingredients> { ingredient1, ingredient2, ingredient3, ingredient4, ingredient5, ingredient6, ingredient7, ingredient8, ingredient9, ingredient10, ingredient11, ingredient12, ingredient13, ingredient14, ingredient15, ingredient16 };
+        List<Topping> toppingList = new List<Topping>();
+        toppingList.Add(topping1);
+        toppingList.Add(topping2);
+        toppingList.Add(topping3);
+        toppingList.Add(topping4);
+        toppingList.Add(topping5);
+        toppingList.Add(topping6);
+        toppingList.Add(topping7);
+        toppingList.Add(topping8);
+        toppingList.Add(topping9);
+        toppingList.Add(topping10);
+        toppingList.Add(topping11);
+        toppingList.Add(topping12);
+        toppingList.Add(topping13);
+        toppingList.Add(topping14);
+        toppingList.Add(topping15);
+        toppingList.Add(topping16);
         }
-        public class Ingredients
-        {
+
+        public class Topping {
             public string Name { get; set; }
         }
+        
     }
 }

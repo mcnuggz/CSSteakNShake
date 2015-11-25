@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    public class burger : IBurger
+    public class burger : ICook
     {
         public bool hasBuns;
         public int bunAmt;
+        public bool heatApplied;
         public void haveBuns()
         {
             hasBuns = true;
@@ -22,5 +23,14 @@ namespace steaknshake
             hasBuns = true;
             pattyAmt = 2;
         }
+
+        public void addHeat()
+        {
+            heatApplied = true;
+        }
+    
+    public static void Main()
+    {
     }
+  }
 }
