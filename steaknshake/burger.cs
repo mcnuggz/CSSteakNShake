@@ -28,8 +28,12 @@ namespace steaknshake
 
             burger deluxeBurger = new burger("Mondo Burger", 2, 2);
             Console.WriteLine(deluxeBurger.name + " has " + deluxeBurger.amtofBuns + " buns and " + deluxeBurger.amtofPatties + " patties!");
-            Console.Read();
 
+            foreach (string item in deluxeBurger.ToppingsList())
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadKey();
     }
 
 

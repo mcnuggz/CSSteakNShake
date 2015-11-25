@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-   public class IngredientList
+    public class IngredientList
     {
-        public static void Toppings()
+        public class Topping
         {
+            public string Name { get; set; }
+
+        }
         Topping topping1 = new Topping() { Name = "Bun" };
         Topping topping2 = new Topping() { Name = "Patty" };
         Topping topping3 = new Topping() { Name = "Cheese" };
@@ -27,28 +30,13 @@ namespace steaknshake
         Topping topping15 = new Topping() { Name = "Onion Rings" };
         Topping topping16 = new Topping() { Name = "Fried Onion" };
 
-        List<Topping> toppingList = new List<Topping>();
-        toppingList.Add(topping1);
-        toppingList.Add(topping2);
-        toppingList.Add(topping3);
-        toppingList.Add(topping4);
-        toppingList.Add(topping5);
-        toppingList.Add(topping6);
-        toppingList.Add(topping7);
-        toppingList.Add(topping8);
-        toppingList.Add(topping9);
-        toppingList.Add(topping10);
-        toppingList.Add(topping11);
-        toppingList.Add(topping12);
-        toppingList.Add(topping13);
-        toppingList.Add(topping14);
-        toppingList.Add(topping15);
-        toppingList.Add(topping16);
-        }
+       public List<string> ToppingsList()
+        {
+            List<string> toppingList = new List<string>
+            { "Bun", "Patty", "Cheese", "Tomato", "Onion", "Lettuce", "Pickles", "Mayonaise", "Ketchup",
+              "Mustard", "Frisco Sauce", "Bacon", "Guacamole", "Grilled Eggs", "Onion Rings", "Fried Onion" };
 
-        public class Topping {
-            public string Name { get; set; }
+            return toppingList;
         }
-        
     }
 }
