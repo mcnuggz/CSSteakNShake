@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    internal class onionrings
+    internal class OnionRings : Topping, INeedToBeFried
     {
+        public bool foodFried;
+        public void fryfood()
+        {
+            foodFried = true;
+        }
     }
 }

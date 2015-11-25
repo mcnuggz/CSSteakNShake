@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    public interface IAssemble
+    internal class Bun : Topping
     {
-        void AddIngredients();
-        void AssembleIngredients();
     }
 }

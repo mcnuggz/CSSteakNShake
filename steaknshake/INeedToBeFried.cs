@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    internal class buns
+    interface INeedToBeFried
     {
+        void fryfood();
     }
 }

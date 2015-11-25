@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    internal class grilledEgg
+    internal class GrilledEgg : Topping, INeedToBeGrilled
     {
+        public bool grilledFood;
+        public void grillFood()
+        {
+            grilledFood = true;
+        }
     }
 }

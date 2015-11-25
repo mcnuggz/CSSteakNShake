@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    internal class lettuce
+    internal class Lettuce : Topping
     {
     }
 }

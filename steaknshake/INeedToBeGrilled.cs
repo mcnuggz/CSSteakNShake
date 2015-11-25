@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    internal class Mustard : Topping 
+    interface INeedToBeGrilled
     {
+        void grillFood();
     }
 }

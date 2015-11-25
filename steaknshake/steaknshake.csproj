@@ -43,27 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bacon.cs" />
-    <Compile Include="buns.cs" />
-    <Compile Include="burger.cs" />
-    <Compile Include="cheese.cs" />
-    <Compile Include="friedonion.cs" />
-    <Compile Include="grilledEgg.cs" />
-    <Compile Include="frisco.cs" />
-    <Compile Include="guacamole.cs" />
-    <Compile Include="ICook.cs" />
-    <Compile Include="ketchup.cs" />
-    <Compile Include="lettuce.cs" />
-    <Compile Include="mayonaise.cs" />
-    <Compile Include="mustard.cs" />
-    <Compile Include="onion.cs" />
-    <Compile Include="onionrings.cs" />
-    <Compile Include="patty.cs" />
-    <Compile Include="pickles.cs" />
-    <Compile Include="tomato.cs" />
-    <Compile Include="sides.cs" />
-    <Compile Include="IAssemble.cs" />
-    <Compile Include="ingredients.cs" />
+    <Compile Include="Bacon.cs" />
+    <Compile Include="BasicBurger.cs" />
+    <Compile Include="Bun.cs" />
+    <Compile Include="Burger.cs" />
+    <Compile Include="Cheese.cs" />
+    <Compile Include="INeedToBeFried.cs" />
+    <Compile Include="INeedToBeGrilled.cs" />
+    <Compile Include="Topping.cs" />
+    <Compile Include="FriedOnion.cs" />
+    <Compile Include="GrilledEgg.cs" />
+    <Compile Include="FriscoSauce.cs" />
+    <Compile Include="Guacamole.cs" />
+    <Compile Include="INeedToBeCooked.cs" />
+    <Compile Include="Ketchup.cs" />
+    <Compile Include="Lettuce.cs" />
+    <Compile Include="Mayonaise.cs" />
+    <Compile Include="Mustard.cs" />
+    <Compile Include="Onion.cs" />
+    <Compile Include="OnionRings.cs" />
+    <Compile Include="Patty.cs" />
+    <Compile Include="Pickles.cs" />
+    <Compile Include="Tomato.cs" />
+    <Compile Include="Ingredients.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

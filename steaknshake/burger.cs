@@ -6,18 +6,10 @@ using System.Threading.Tasks;
 
 namespace steaknshake
 {
-    public class burger : IngredientList, ICook
+    public class Burger : IngredientList
     {
-        public bool cookedMeat;
-        public string name;
-        public int amtofBuns;
-        public int amtofPatties;
 
-        public void addHeat()
-        {
-            cookedMeat = true;
-        }
-        public burger(string burgerName, int bunCount, int pattyCount)
+        public Burger(string burgerName, int bunCount, int pattyCount)
         {
             name = burgerName;
             amtofBuns = bunCount;
@@ -26,14 +18,9 @@ namespace steaknshake
     public static void Main()
     {
 
-            burger deluxeBurger = new burger("Mondo Burger", 2, 2);
+            Burger deluxeBurger = new Burger("Mondo Burger", 1, 2);
             Console.WriteLine(deluxeBurger.name + " has " + deluxeBurger.amtofBuns + " buns and " + deluxeBurger.amtofPatties + " patties!");
 
-            foreach (string item in deluxeBurger.ToppingsList())
-            {
-                Console.WriteLine(item);
-            }
-            Console.ReadKey();
     }
 
 
