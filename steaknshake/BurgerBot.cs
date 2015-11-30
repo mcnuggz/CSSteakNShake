@@ -5,6 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace steaknshake
-{
+{ 
+        public class myBurger
+        {
+        static void Main(string[] args)
+        {
 
+        }
+    }
 }

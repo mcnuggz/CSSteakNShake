@@ -48,6 +48,7 @@
     <Compile Include="Bun.cs" />
     <Compile Include="BurgerBot.cs" />
     <Compile Include="Cheese.cs" />
+    <Compile Include="Assemble.cs" />
     <Compile Include="INeedToBeCut.cs" />
     <Compile Include="INeedToBeFried.cs" />
     <Compile Include="INeedToBeGrilled.cs" />
